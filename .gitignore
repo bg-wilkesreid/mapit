@@ -1,2 +1,4 @@
-src/pdfs
+src/pdfs/*
+out/*
+tiles/*
 .DS_Store

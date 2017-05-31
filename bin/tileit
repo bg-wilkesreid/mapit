@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir "$(pwd)/../tiles/$1"
+tileup --in "$(pwd)/../out/$1.jpeg" --prefix "map_tile" --output-dir "$(pwd)/../tiles/$1" --auto-zoom 5 --dont-extend-incomplete-tiles
