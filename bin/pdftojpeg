@@ -1,2 +1,2 @@
 #!/bin/bash
-convert -density 500 "$(pwd)/../src/pdfs/$1.pdf" -quality 100 "$(pwd)/../out/$1.jpeg"
+convert -density 500 "$(pwd)/../src/pdfs/$1.pdf" -quality 100 "$(pwd)/../out/$1.jpg"
